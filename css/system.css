@@ -1,0 +1,120 @@
+:root{
+    /* basic size 1rem */
+    --basic-font-pc:20px;
+    --basic-font-tab:18px;
+    --basic-font-mobile:14px;
+
+    /* color variation */
+    --mellow-yellow-main:#FF9D27;
+    --mellow-yellow-100:#FDE4C5;
+    --mellow-yellow-200:#F9CD98;
+    --mellow-yellow-300:#F2B870;
+    --mellow-yellow-400:#E9A550;
+    --mellow-yellow-500:#DD9338;
+    --mellow-yellow-600:#CD8227;
+    --mellow-yellow-700:#B8711B;
+    --mellow-yellow-800:#A06013;
+    --mellow-yellow-900:#87500E;
+
+    /* font-weight */
+    --font-strong:700;
+    --font-normal:400;
+
+    /* line height */
+    --base-line-height:1.2;
+    --text-line-height:1.4;
+
+    /* spacing */
+    --space-2x-small:0.25rem;
+    --space-x-small:0.5rem;
+    --space-normal: 1rem;
+    --space-x-large:2rem;
+    --space-2x-large:3rem;
+    --space-3x-large:6rem;
+
+    /* semantic color */
+    --color-inactive: #777;
+
+    /* device width */
+    --device-tab: 1440px;
+    --device-mobile: 786px
+}
+
+html{line-height: var(--base-line-height);
+    font-family: 'Pretendard',sans-serif;}
+
+h1{
+    font-size: 1.6rem;
+    font-weight: var(--font-strong);
+}
+
+h2{
+    font-size: 1.4rem;
+    font-weight: var(--font-strong);
+}
+
+h3{
+    font-size: 1.25rem;
+    font-weight: var(--font-strong);
+}
+
+h4{
+    font-size:1rem;
+    font-weight: var(--font-strong);
+}
+
+p{
+    font-size: 1rem;
+    line-height: var(--text-line-height);
+}
+
+.b2{
+    font-size: 0.9rem;
+}
+
+.detail{
+    font-size: 0.8rem;
+}
+
+.point{
+    font-family: "Ranchers", sans-serif;
+}
+
+.common-frame{
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.slider-track{display: flex;}
+
+
+/* 웹킷 계열의 브라우저 -> 크롬 엣지 사파리 */
+::-webkit-scrollbar{
+    width:0.25rem;
+    height:0.25rem;
+}
+::-webkit-scrollbar-track{
+    background:#d9d9d9;
+    border-radius:10px;
+}
+::-webkit-scrollbar-thumb{
+    background: var(--mellow-yellow-main);
+    border-radius:5px;
+}
+
+@media (max-width:1440px){
+    html{font-size: var(--basic-font-tab);}
+    .common-frame{
+        width: auto;
+        margin: 0 2rem;
+    }
+}
+
+@media(max-width:768px){
+    html{font-size: var(--basic-font-mobile);}
+    .common-frame{
+        width: auto;
+        margin: 0 1rem;
+    }
+}
+
