@@ -158,6 +158,7 @@ header.fold~main{
     display: flex;
     gap: var(--space-normal);
     margin-top: var(--space-3x-large);
+    margin-bottom: 6rem;
 }
 
 .benefit-img{
