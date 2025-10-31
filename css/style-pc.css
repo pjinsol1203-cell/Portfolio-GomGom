@@ -165,8 +165,10 @@ header.fold~main{
     flex:1
 }
 
-.benefit-img img{
+.benefit-img img {
     width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .benefit-txt{

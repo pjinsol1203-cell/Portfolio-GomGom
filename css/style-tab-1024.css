@@ -7,3 +7,7 @@
 .news-list li a{
     max-width: 300px;
 }
+
+.benefit-img {
+    aspect-ratio: 1/1;
+}
