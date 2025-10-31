@@ -3,3 +3,7 @@
     .mobile-slide{display: none;}
     .tab-slide{display: block;}
 }
+
+.news-list li a{
+    max-width: 300px;
+}

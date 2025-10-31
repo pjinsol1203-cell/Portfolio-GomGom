@@ -33,4 +33,23 @@
     .off-store h1{
     padding-top: 0rem;
     }
+
+    .news{
+    flex-direction: column;
+    gap: var(--space-x-large);
+    }
+
+    .news-list li a {
+    max-width: 130px;
+    }
+
+    .news-title{
+        text-align: center;
+    }
+
+    .benefit{
+        flex-direction: column-reverse;
+        gap: var(--space-x-large);
+        text-align: center;
+    }
 }
