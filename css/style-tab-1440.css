@@ -1,30 +1,16 @@
 @media(max-width:1440px){
-    main{
-        margin-top: 94px;
-    }
-    .header-smart{
-        position: fixed;
-        width: 100%;
-        left: 0;
-        top: 0;
-        z-index: 10000;
-    }
-    header.fold~main{
-        margin-top: 94px;
-    }
+    .brand-txt h1 {
+    font-size: 3.7rem;
+    line-height: 1.2;
+    font-weight: var(--font-normal);
+}
 
-    .banner-cake{height: 360px;}
+.brand-txt {
+    flex: 6;
+}
 
-    .off-store figure{
-    width: 40%;
-    flex-shrink: 0;
-    aspect-ratio: 386/515;
-    }
-
-    .off-store figure img{
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
+.brand-img{
+    flex: 5;
+}
 
 }

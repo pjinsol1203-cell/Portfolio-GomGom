@@ -1,3 +1,17 @@
+@media (min-width: 1920px){
+    body{ width:1920px; margin: 0 auto;}
+}
+
+ main{
+    margin-top: 85px;
+    /* header의 높이만큼 상단 여백을 만들어 줌 */
+    min-height: 1500px;
+}
+    
+header.fold~main{
+    margin-top: 44px;
+}
+
 :root{
     /* basic size 1rem */
     --basic-font-pc:20px;
@@ -42,6 +56,11 @@
 
 html{line-height: var(--base-line-height);
     font-family: 'Pretendard',sans-serif;}
+
+em{
+    font-style: inherit;
+    color: var(--mellow-yellow-main);
+}
 
 h1{
     font-size: 1.6rem;
@@ -108,13 +127,33 @@ p{
         width: auto;
         margin: 0 2rem;
     }
+    main{
+        margin-top: 94px;
+    }
+    .header-smart{
+        position: fixed;
+        width: 100%;
+        left: 0;
+        top: 0;
+        z-index: 10000;
+    }
+    header.fold~main{
+        margin-top: 94px;
+    }
 }
 
-@media(max-width:768px){
+@media (max-width:768px){
     html{font-size: var(--basic-font-mobile);}
     .common-frame{
         width: auto;
         margin: 0 1rem;
+    }
+    main{
+        margin-top: 74px;
+    }
+
+    header.fold~main{
+        margin-top: 74px;
     }
 }
 
