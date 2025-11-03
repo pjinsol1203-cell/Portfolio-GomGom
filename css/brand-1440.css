@@ -1,15 +1,26 @@
 @media(max-width:1440px){
-    main{
-        margin-top: 94px;
-    }
-    .header-smart{
-        position: fixed;
-        width: 100%;
-        left: 0;
-        top: 0;
-        z-index: 10000;
-    }
-    header.fold~main{
-        margin-top: 94px;
-    }
+    .brand-txt {
+    flex: 6;
+}
+
+.brand-img{
+    flex: 5;
+}
+
+.brand-txt h1 {
+    font-size: 3.7rem;
+    line-height: 1.2;
+    font-weight: var(--font-normal);
+}
+
+.txt-story{
+    flex: 710;
+    padding-left: 0rem;
+}
+
+.story-2 .txt-story{
+    padding-left: 0;
+    padding-right: 6rem;
+}
+
 }

@@ -1,0 +1,11 @@
+@media (max-width:320px){
+    .brand-banner h1{
+        font-size: 36px;
+    }
+
+    .brand-banner h2 {
+    font-size: 1.3rem;
+    font-weight: var(--font-strong);
+}
+
+}

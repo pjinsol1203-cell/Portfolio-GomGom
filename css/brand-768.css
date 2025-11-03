@@ -1,9 +1,24 @@
 @media  (max-width:768px){
-    main{
-        margin-top: 74px;
+    .brand-banner{
+        flex-direction: column;
+        text-align: center;
+        gap: var(--space-x-large);
+    }
+    .brand-banner h1{
+        font-size: 45px;
     }
 
-    header.fold~main{
-        margin-top: 74px;
+    .brand-img img{
+        width: 100%;
+        aspect-ratio: 365/342;
+        object-fit: cover;
     }
+
+    .story section{
+    flex-direction: column;
+    }
+
+    .story-2 .txt-story {
+    padding-right: 0rem;
+}
 }
