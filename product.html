@@ -36,10 +36,10 @@
     <!-- header,footer,head 포함시켜주는 파일 -->
     <!-- <script src="./js/include.js"></script> -->
 
-    <link rel="stylesheet" href="./css/style-pc.css"?ver=1>
-    <link rel="stylesheet" href="./css/style-tab-1440.css"?ver=1>
-    <link rel="stylesheet" href="./css/style-tab-1024.css"?ver=1>
-    <link rel="stylesheet" href="./css/style-mobile-768.css"?ver=1>
+    <!-- 개별 스타일 -->
+     <link rel="stylesheet" href="./css/product-1920.css">
+     <link rel="stylesheet" href="./css/product-1440.css">
+     <link rel="stylesheet" href="./css/product-768.css">
 
     <!-- scrollbar -->
      <script src="./js/scrollbar.js"></script>
@@ -224,159 +224,116 @@
             </ul>
         </div>
     </div>
-<main>
-    <div class="swiper hero-banner-slider">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    <img  class="pc-slide" src="./img/Hero-Banner-pc1.jpg" alt="한 입마다 스며드는 포근함, GOMGOM 베이커리 카페">
-                    <img src="./img/hero-banner-tab-1.jpg" alt="한 입마다 스며드는 포근함, GOMGOM 베이커리 카페"   class="tab-slide">
-                    <img src="./img/banner1-mobile.jpg" alt="한 입마다 스며드는 포근함, GOMGOM 베이커리 카페"  class="mobile-slide">
-                    </div>
-
-                <div class="swiper-slide">
-                    <img class="pc-slide" src="./img/Hero-Banner-pc2.jpg" alt="10월 26일부터 11월 26일까지 Open Event-signature set(라떼, 초코 케이크) 3000원 할인!">
-                    <img src="./img/hero-banner-tab-2.jpg" alt="10월 26일부터 11월 26일까지 Open Event-signature set(라떼, 초코 케이크) 3000원 할인!" class="tab-slide">
-                    <img src="./img/banner2-mobile 1.jpg" alt="10월 26일부터 11월 26일까지 Open Event-signature set(라떼, 초코 케이크) 3000원 할인!" class="mobile-slide">
-                    </div>
-
-                <div class="swiper-slide">
-                    <img class="pc-slide" src="./img/Hero-Banner-pc3.jpg" alt="차가운 겨울날, 달콤하게 녹여줄 순간! 겨울 한정 메뉴인 마시멜로우 핫초코로 따뜻하고 포근하게">
-                    <img src="./img/hero-banner-tab-3.jpg" alt="차가운 겨울날, 달콤하게 녹여줄 순간! 겨울 한정 메뉴인 마시멜로우 핫초코로 따뜻하고 포근하게" class="tab-slide">
-                    <img src="./img/banner3-mobile.jpg" alt="차가운 겨울날, 달콤하게 녹여줄 순간! 겨울 한정 메뉴인 마시멜로우 핫초코로 따뜻하고 포근하게" class="mobile-slide">
-                </div>    
-          </div>
-
-            <div class="swiper-pagination"></div>
-    </div>
-    <script>
-            const heroBannerSlider = new Swiper('.hero-banner-slider', {
-                // Optional parameters
-                direction: 'horizontal',
-                loop: true,
-
-                // If we need pagination
-                pagination: {
-                    el: '.swiper-pagination',
-                    clickable: true,
-                },
-
-                autoplay: {
-                    delay: 2500,
-                    disableOnInteraction: false,
-                },
-
-                speed: 1000
-        });
-    </script>
-
-    <div class="common-frame signature">
-        <h1>따뜻한 빵, 따뜻한 마음</h1>
-        <P>포근한 곰처럼 다정한 마음을 담아 구워낸 빵. gomgom에서 당신만의 따뜻한 순간을 발견해보세요</P>
-        <div class="swiper signature-slider">
-            <ul class="signature-items swiper-wrapper">
-                <li class="sig-item swiper-slide">
-                    <a href="#">
-                        <figure><img src="./img/sig1.jpg" alt="곰곰이 크로와상 (Croissant Bearie) 썸네일 이미지"></figure>
-                        <h4>곰곰이 크로와상 (Croissant Bearie)</h4>
-                        <p>겹겹이 살아있는 바삭한 식감과 버터의 진한 풍미가 매력인 시그니처 크로와상. 아침을 여는 최고의 선택.</p>
-                    </a>
-                </li>
-                <li class="sig-item swiper-slide">
-                    <a href="#">
-                        <figure><img src="./img/sig2.jpg" alt="허니 곰퐁 (Honey Bearpong) 썸네일 이미지"></figure>
-                        <h4>허니 곰퐁 (Honey Bearpong)</h4>
-                        <p>꿀을 듬뿍 머금은 폭신한 브리오슈 빵 속에 달콤한 크림이 숨어있는 인기 메뉴. 달콤한 휴식을 선사합니다.</p>
-                    </a>
-                </li>
-                <li class="sig-item swiper-slide">
-                    <a href="#">
-                        <figure><img src="./img/sig3.jpg" alt="치즈 곰냥 (Cheezy Gomnyang) 썸네일 이미지"></figure>
-                        <h4>치즈 곰냥 (Cheezy Gomnyang)</h4>
-                        <p>부드러운 크림치즈와 촉촉한 시트가 어우러진 정통 치즈케이크. 고소하고 진한 풍미가 입안 가득 퍼집니다.</p>
-                    </a>
-                </li>
-                <li class="sig-item swiper-slide">
-                    <a href="#">
-                        <figure><img src="./img/sig4.jpg" alt="곰동동 라떼 (Floating Bear Latte) 썸네일 이미지"></figure>
-                        <h4>곰동동 라떼 (Floating Bear Latte)</h4>
-                        <p>시원한 라떼 위에 귀여운 곰돌이 모양 얼음을 띄운 특별 메뉴. 마시는 순간 시원함은 물론, 보는 재미까지 더해줍니다.</p>
-                    </a>
-                </li>
+    <main>
+        <!-- product contents -->
+        <div class="banner-product">
+            <div class="common-frame">
+                <h1>“곰처럼 포근하게, 마음까지 채워드립니다”</h1>
+                <p>“A Bite of Bread, A Moment of Comfort”</p>
+            </div>
+        </div>
+        <div class="product">
+            <h1>New Arrivals</h1>
+            <p>곰곰이 정성껏 준비한 새로운 맛을 가장 먼저 만나보세요. 매일 신선하게 구워낸 빵과 달콤한 디저트로 특별한 하루를 선물합니다.</p>
+            <div class="slider-container">
+                <ul class="category-product detail">
+                    <li class="on"><a href="#">NEW</a></li>
+                    <li><a href="#">BREAD</a></li>
+                    <li><a href="#">CAKE</a></li>
+                    <li><a href="#">DELI</a></li>
+                    <li><a href="#">DESSERT&SNACK</a></li>
+                    <li><a href="#">GIFT</a></li>
+                    <li><a href="#">DRINK</a></li>
+                </ul>
+            </div>
+            
+            <!-- <ul class="list-product">
+                <li><a href="#">
+                    <figure>
+                        <img src="./img/product1-pc.jpg" alt="곰곰이 크로와상">
+                        <span class="heart"><img src="./img/heart-empty.svg" alt="좋아요 선택 안함"></span>
+                    </figure>
+                    <h3>곰곰이 크로와상</h3>
+                    <h4><em>Croissant Bearie</em></h4>
+                    <p>겹겹이 살아있는 바삭한 식감과 버터의 진한 풍미가 매력인 시그니처 크로와상.아침을 여는 최고의 선택.</p>
+                    <p class="price">9,800 원</p>
+                </a></li>
             </ul>
-        </div>
-    </div>
-    <div class="banner-cake">
-        <div class="common-frame">
-            <h1>곰돌이 감성을 담은 특별한 디저트</h1>
-            <p>바삭한 크로와상부터 귀여운 라떼까지, 곰곰에서만 만날 수 있는 달콤한 순간을 즐겨보세요.</p>
-        </div>
-    </div>
-    <div class="common-frame off-store">
-        <section>
-            <h1> Where’s My Gomgom?</h1>
-            <h3>가장 가까운 매장에서 시그니처 디저트를 직접 만나보세요.</h3>
-            <p>따뜻한 향기와 포근한 분위기 속에서 곰곰만의 디저트를 즐겨보세요.전국 곰곰 매장에서 직접 굽는 신선한 빵과 음료를 만나실 수 있습니다.</p>
-            <a href="#" class="btn-1">오프라인매장 찾기</a>
-        </section>
-        <figure><img src="./img/off-store.jpg" alt="곰곰 오프라인 매장 홀 사진"></figure>
-    </div>
-    <script>
-        const signatureSlide = new Swiper('.signature-slider', {
-        // Optional parameters
-            direction: 'horizontal',
-            loop: true,
-            slidesPerView: 1.2,
-            spaceBetween: 14,
-            breakpoints:{
-                768: {
-                //화면 너비가 640px 이상인 경우
-                    slidesPerView:3.2,
-                    spaceBetween:18,
-                },
-                1440: {
-                    slidesPerView:4,
-                    spaceBetween:20,
-                },
-                },
-        });
-    </script>
-    <div class="common-frame news">
-        <div class="news-title">
-            <h1> 곰곰 소식 (Gomgom News)</h1>
-            <p>곰처럼 포근하고, 빵처럼 따뜻한 공간에서 전해드리는 따끈한 소식들입니다. 신메뉴 출시, 이벤트, 매장 소식까지 곰곰의 최신 소식을 확인하세요!</p>
+            <ul class="list-product">
+                <li><a href="#">
+                    <figure>
+                        <img src="./img/product1-pc.jpg" alt="곰곰이 크로와상">
+                        <span class="heart"><img src="./img/heart-empty.svg" alt="좋아요 선택 안함"></span>
+                    </figure>
+                    <h3>곰곰이 크로와상</h3>
+                    <h4><em>Croissant Bearie</em></h4>
+                    <p>겹겹이 살아있는 바삭한 식감과 버터의 진한 풍미가 매력인 시그니처 크로와상.아침을 여는 최고의 선택.</p>
+                    <p class="price">9,800 원</p>
+                </a></li>
+            </ul>
+            <ul class="list-product">
+                <li><a href="#">
+                    <figure>
+                        <img src="./img/product1-pc.jpg" alt="곰곰이 크로와상">
+                        <span class="heart"><img src="./img/heart-empty.svg" alt="좋아요 선택 안함"></span>
+                    </figure>
+                    <h3>곰곰이 크로와상</h3>
+                    <h4><em>Croissant Bearie</em></h4>
+                    <p>겹겹이 살아있는 바삭한 식감과 버터의 진한 풍미가 매력인 시그니처 크로와상.아침을 여는 최고의 선택.</p>
+                    <p class="price">9,800 원</p>
+                </a></li>
+            </ul>
+            <ul class="list-product">
+                <li><a href="#">
+                    <figure>
+                        <img src="./img/product1-pc.jpg" alt="곰곰이 크로와상">
+                        <span class="heart"><img src="./img/heart-empty.svg" alt="좋아요 선택 안함"></span>
+                    </figure>
+                    <h3>곰곰이 크로와상</h3>
+                    <h4><em>Croissant Bearie</em></h4>
+                    <p>겹겹이 살아있는 바삭한 식감과 버터의 진한 풍미가 매력인 시그니처 크로와상.아침을 여는 최고의 선택.</p>
+                    <p class="price">9,800 원</p>
+                </a></li>
+            </ul>
+            <ul class="list-product">
+                <li><a href="#">
+                    <figure>
+                        <img src="./img/product1-pc.jpg" alt="곰곰이 크로와상">
+                        <span class="heart"><img src="./img/heart-empty.svg" alt="좋아요 선택 안함"></span>
+                    </figure>
+                    <h3>곰곰이 크로와상</h3>
+                    <h4><em>Croissant Bearie</em></h4>
+                    <p>겹겹이 살아있는 바삭한 식감과 버터의 진한 풍미가 매력인 시그니처 크로와상.아침을 여는 최고의 선택.</p>
+                    <p class="price">9,800 원</p>
+                </a></li>
+            </ul>
+            <ul class="list-product">
+                <li><a href="#">
+                    <figure>
+                        <img src="./img/product1-pc.jpg" alt="곰곰이 크로와상">
+                        <span class="heart"><img src="./img/heart-empty.svg" alt="좋아요 선택 안함"></span>
+                    </figure>
+                    <h3>곰곰이 크로와상</h3>
+                    <h4><em>Croissant Bearie</em></h4>
+                    <p>겹겹이 살아있는 바삭한 식감과 버터의 진한 풍미가 매력인 시그니처 크로와상.아침을 여는 최고의 선택.</p>
+                    <p class="price">9,800 원</p>
+                </a></li>
+            </ul>
+            <ul class="list-product">
+                <li><a href="#">
+                    <figure>
+                        <img src="./img/product1-pc.jpg" alt="곰곰이 크로와상">
+                        <span class="heart"><img src="./img/heart-empty.svg" alt="좋아요 선택 안함"></span>
+                    </figure>
+                    <h3>곰곰이 크로와상</h3>
+                    <h4><em>Croissant Bearie</em></h4>
+                    <p>겹겹이 살아있는 바삭한 식감과 버터의 진한 풍미가 매력인 시그니처 크로와상.아침을 여는 최고의 선택.</p>
+                    <p class="price">9,800 원</p>
+                </a></li>
+            </ul> -->
         </div>
 
-        <ul class="news-list">
-            <li>
-                <a href="#">🎉 성수동 신규 매장 오픈 안내</a>
-                <span class="date">[2025-08-18]</span>
-            </li>
-            <li>
-                <a href="#">🐻 성수동 오픈 기념 곰곰 세트 3,000원 할인 이벤트 (~9/30)</a>
-                <span class="date">[2025-08-18]</span>
-            </li>
-            <li>
-                <a href="#">🍫 신메뉴 출시 – 초코 치즈 곰 케이크</a>
-                <span class="date">[2025-09-05]</span>
-            </li>
-            <li>
-                <a href="#">☕ 겨울 한정 ‘곰곰 핫초코’ 곧 출시 예정</a>
-                <span class="date">[2025-10-01]</span>
-            </li>
-        </ul>
-    </div>
-    <div class="common-frame benefit">
-        <figure class="benefit-img">
-            <img src="./img/benefit-pc.jpg" alt="카드 혜택 보러가기">
-        </figure>
-        <div class="benefit-txt">
-            <h1>카드 혜택으로 더 따뜻한 하루</h1>
-            <p>제휴 카드로 결제하면, 곰곰의 모든 디저트와 음료를 특별한 가격에 만나보세요.</p>
-            <a href="#" class="btn-1">혜택 더 알아보기</a>
-        </div>
-    </div>
     </main>
-
     <footer>
         <div class="common-frame">
             <section class="ft">
