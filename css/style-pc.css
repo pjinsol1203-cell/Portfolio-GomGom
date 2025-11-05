@@ -79,7 +79,7 @@ header.fold~main{
 
 .banner-cake{
     height: 400px;
-    background: url(../img/banner-cake.jpg) no-repeat 50% 50% / cover;
+    background: url(../img/banner-cake.png) no-repeat 50% 50% / cover;
     display: flex;
     justify-content: center;
     align-items: center;

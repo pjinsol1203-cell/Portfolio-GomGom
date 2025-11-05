@@ -3,7 +3,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url(../img/event-banner.jpg) no-repeat 50% 50% / cover;
+    background: url(../img/event-banner.png) no-repeat 50% 50% / cover;
     color: #fff;
     text-align: center;
 }
