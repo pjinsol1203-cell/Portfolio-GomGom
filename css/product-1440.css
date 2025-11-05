@@ -2,4 +2,8 @@
     .banner-product{
     height: 450px;
     }
+
+    .list-product{
+    grid-template-columns: repeat(3,1fr);
+    }
 }

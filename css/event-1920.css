@@ -1,0 +1,19 @@
+.banner-product{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../img/event-banner.jpg) no-repeat 50% 50% / cover;
+    color: #fff;
+    text-align: center;
+}
+
+.event-title{
+    margin-top: var(--space-3x-large);
+    margin-bottom: var(--space-2x-large);
+    text-align: center;
+}
+
+.event-title h1{
+    margin-bottom: var(--space-normal);
+}

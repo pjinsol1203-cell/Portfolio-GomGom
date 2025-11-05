@@ -2,4 +2,12 @@
     .banner-product{
         height: 100vh;
     }
+
+    .product .slider-container{
+    justify-content: flex-start;
+    }
+
+    .list-product{
+    grid-template-columns: repeat(2,1fr);
+}
 }

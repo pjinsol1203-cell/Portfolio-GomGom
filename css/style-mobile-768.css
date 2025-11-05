@@ -5,7 +5,10 @@
     .mobile-slide{
         width: 100; height: 100; object-fit: cover;
     }
-    
+    main {
+    margin-top: 74px;
+    min-height: 1500px;
+}
 
     .banner-cake{height: 582px;}
 
