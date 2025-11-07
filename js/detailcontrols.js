@@ -34,9 +34,15 @@ document.addEventListener("DOMContentLoaded",()=>{
             `
 
             const smallThumbImgs = document.querySelectorAll(".thumb-small-list img")
+            const thumbBig = document.querySelector(".thumb-big img")
+            
             smallThumbImgs.forEach(imgtag=>{
                 imgtag.addEventListener("click",()=>{
-                    alert("tt")
+                    // console.log(imgtag.getAttribute("src"))
+                    let src = imgtag.getAttribute("src")
+                    let alt = imgtag.getAttribute("alt")
+                    thumbBig.setAttribute("src",src)
+                    thumbBig.setAttribute("alt",alt)
                 })
             })
 
