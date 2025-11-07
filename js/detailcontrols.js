@@ -32,4 +32,15 @@ document.addEventListener("DOMContentLoaded",()=>{
                 </div>
             </section>
             `
+
+            const smallThumbImgs = document.querySelectorAll(".thumb-small-list img")
+            smallThumbImgs.forEach(imgtag=>{
+                imgtag.addEventListener("click",()=>{
+                    alert("tt")
+                })
+            })
+
+
+
+
 })

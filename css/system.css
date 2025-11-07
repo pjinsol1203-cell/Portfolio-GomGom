@@ -55,7 +55,8 @@ header.fold~main{
 }
 
 html{line-height: var(--base-line-height);
-    font-family: 'Pretendard',sans-serif;}
+    font-family: 'Pretendard',sans-serif;
+    scroll-behavior: smooth;}
 
 em{
     font-style: inherit;

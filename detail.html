@@ -38,10 +38,15 @@
      <link rel="stylesheet" href="./css/detail-1440.css">
      <link rel="stylesheet" href="./css/detail-768.css">
 
+     <link rel="stylesheet" href="./css/product-1920.css">
+     <link rel="stylesheet" href="./css/product-1440.css">
+     <link rel="stylesheet" href="./css/product-768.css">
+
      <!-- 상품 정보 -->
      <script src="./js/product.js"></script>
      <script src="./js/getQueryParam.js"></script>
      <script src="./js/detailcontrols.js"></script>
+     <script src="./js/product-control.js"></script>
 
     <!-- scrollbar -->
      <script src="./js/scrollbar.js"></script>
@@ -82,8 +87,182 @@
                     <a href="#">장바구니</a>
                     <a href="#" class="btn-buy">구매하기</a>
                 </div>
-            </section>
-        </div> -->
+            </section>-->
+        </div>
+        <div class="common-frame detail-2 product">
+            <ul class="sticky-menu">
+                <li><a href="#dt1">많이 찾는 제품</a></li>
+                <li><a href="#dt2">영양성분</a></li>
+                <li><a href="#dt3">리뷰</a></li>
+             </ul>
+             <h1 class="title-product" id="dt1">많이 찾는 제품</h1>
+             <ul class="list-product">
+             <!-- <li>
+                    <a href="#">
+                        <figure>
+                            <img src="./img/product1-pc.jpg" alt="곰곰이 크로와상">
+                            <span class="heart"><img src="./img/heart-empty.svg" alt="좋아요 선택 안함"></span>
+                        </figure>
+                        <h3>곰곰이 크로와상</h3>
+                        <h4><em>Croissant Bearie</em></h4>
+                        <p class="ln3">겹겹이 살아있는 바삭한 식감과 버터의 진한 풍미가 매력인 시그니처 크로와상.아침을 여는 최고의 선택.</p>
+                        <p class="price">9,800원</p>
+                    </a>
+                </li>-->
+            </ul>
+            <h1 class="title-product" id="dt2">영양정보</h1>
+            <div class="info-list">
+                <section class="info-list-1">
+                    <h3>치즈 곰냥</h3>
+                    <p><em>Cheezy Gomnyang</em></p>
+                    <p>크림치즈(국산), 생크림, 달걀, 버터, 설탕, 밀가루, 바닐라익스트랙트, 쿠키크럼블, 슈가파우더
+                    <br>알레르기 유발 성분: 우유, 달걀, 밀 함유</p>
+                </section>
+
+                <section class="info-list-2">
+                    <table>
+                        <caption>1회 제공량 100g 기준</caption>
+                        <tr>
+                            <th>열량 (Calories)</th>
+                            <td>340 kcal</td>
+                        </tr>
+
+                        <tr>
+                            <th>탄수화물 (Carbohydrates)</th>
+                            <td>28 g</td>
+                        </tr>
+                        
+                        <tr>
+                            <th>당류 (Sugars)</th>
+                            <td>22 g</td>
+                        </tr>
+
+                        <tr>
+                            <th>단백질 (Protein)</th>
+                            <td>6 g</td>
+                        </tr>
+
+                        <tr>
+                            <th>지방 (Total Fat)</th>
+                            <td>22 g</td>
+                        </tr>
+
+                        <tr>
+                            <th>포화지방 (Saturated Fat)</th>
+                            <td>13 g</td>
+                        </tr>
+
+                        <tr>
+                            <th>나트륨 (Sodium)</th>
+                            <td>120 mg</td>
+                        </tr>
+                    </table>
+                </section>
+            </div>
+            <h1 class="title-product" id="dt3">REVIEW</h1>
+            <ul class="list-review">
+                <li>
+                    <section class="list-review-1">
+                        <h3>sweet_haeun</h3>
+                        <div class="like">
+                            <img src="./img/like-star.svg" alt="별점">
+                            <img src="./img/like-star.svg" alt="별점">
+                            <img src="./img/like-star.svg" alt="별점">
+                            <img src="./img/like-star.svg" alt="별점">
+                            <img src="./img/like-star.svg" alt="별점">
+                        </div>
+                        <p class="date">2025-09-27</p>
+                    </section>
+
+                    <section class="list-review-2">
+                        <h4>치즈 곰냥, 곰동동 라떼, 곰곰 아메리카노</h4>
+                        <div class="slider-container review-slider">
+                            <ul class="review-track">
+                                <li><img src="./img/rv1-1.jpg" alt="리뷰 섬네일 이미지1"></li>
+                                <li><img src="./img/rv1-2.jpg" alt="리뷰 섬네일 이미지2"></li>
+                                <li><img src="./img/rv1-3.jpg" alt="리뷰 섬네일 이미지3"></li>
+                                <li><img src="./img/rv1-4.jpg" alt="리뷰 섬네일 이미지4"></li>
+                                <li><img src="./img/rv1-5.jpg" alt="리뷰 섬네일 이미지5"></li>
+                                <li><img src="./img/rv1-6.jpg" alt="리뷰 섬네일 이미지6"></li>
+                            </ul>
+                        </div>
+                        <p class="review-desc">
+                            🐻 곰곰 카페, 이 귀여움 실화냐고요! (성수점 후기)
+                            <br>성수점 오픈했다고 해서 드디어 다녀왔어요! 솔직히 비주얼 보고 간 건데 맛까지 있어서 감동받았습니다! 친구랑 셋이서 시그니처 메뉴 뿌셨는데 전부 다 성공이에요.
+                            <br>
+                            🍫 치즈곰냥: 이거 진짜 대박! 곰돌이가 치즈 조각 옆에 누워있는 비주얼이 너무 귀여워서 칼을 못 대겠더라고요 ㅠㅠ 근데 한 입 먹는 순간 쫀득한 초코 무스랑 부드러운 치즈 맛이 확 퍼져서 순삭했어요. (꼭 드세요!)
+                            <br>
+                            ☕ 곰동동 라떼 (아마도 밀크 곰프레소?): 비주얼 담당! 곰 얼음이 동동 떠있는데 너무 귀여워서 계속 사진 찍었어요. 멜팅 되면서 라떼가 더 부드러워지는데, 은은하게 달콤해서 순삭했어요. 사진용으로도 맛으로도 최고!
+                            <br>
+                            매장 분위기도 너무 포근하고 따뜻해서 다음에 또 갈 거예요! 곰돌이 덕후들 심장 부여잡고 가셔야 합니다 ㅠㅠ 강추!
+                        </p>
+                    </section>
+                </li>
+                <li>
+                    <section class="list-review-1">
+                        <h3>gomlover92</h3>
+                        <div class="like">
+                            <img src="./img/like-star.svg" alt="별점">
+                            <img src="./img/like-star.svg" alt="별점">
+                            <img src="./img/like-star.svg" alt="별점">
+                            <img src="./img/like-star.svg" alt="별점">
+                            <img src="./img/like-star.svg" alt="별점">
+                        </div>
+                        <p class="date">2025.10.02</p>
+                    </section>
+
+                    <section class="list-review-2">
+                        <h4>치즈 곰냥, 곰동동 라떼, 곰곰 아메리카노</h4>
+                        <div class="slider-container review-slider">
+                            <ul class="review-track">
+                                <li><img src="./img/rv1-1.jpg" alt="리뷰 섬네일 이미지1"></li>
+                                <li><img src="./img/rv1-2.jpg" alt="리뷰 섬네일 이미지2"></li>
+                                <li><img src="./img/rv1-3.jpg" alt="리뷰 섬네일 이미지3"></li>
+                                <li><img src="./img/rv1-4.jpg" alt="리뷰 섬네일 이미지4"></li>
+                                <li><img src="./img/rv1-5.jpg" alt="리뷰 섬네일 이미지5"></li>
+                                <li><img src="./img/rv1-6.jpg" alt="리뷰 섬네일 이미지6"></li>
+                            </ul>
+                        </div>
+                        <p class="review-desc">
+                            진짜 곰곰에서 먹은 디저트 중에 단연 최고였어요!! 치즈 향이 너무 진하지도 않고 딱 고소하게 퍼지면서 부드럽게 녹아요. 위에 쿠키 크럼블이 바삭해서 식감이 진짜 좋아요 😋 커피랑 같이 먹으니까 단맛이 훨씬 균형 잡혀요. 조각 케이크로 샀는데 다음엔 홀로 사야 할 듯요 ㅎㅎ
+                        </p>
+                    </section>
+                </li>
+                <li>
+                    <section class="list-review-1">
+                        <h3>mood_brownie</h3>
+                        <div class="like">
+                            <img src="./img/like-star.svg" alt="별점">
+                            <img src="./img/like-star.svg" alt="별점">
+                            <img src="./img/like-star.svg" alt="별점">
+                            <img src="./img/like-star.svg" alt="별점">
+                            <img src="./img/like-star.svg" alt="별점">
+                        </div>
+                        <p class="date">2025-09-27</p>
+                    </section>
+
+                    <section class="list-review-2">
+                        <h4>치즈 곰냥, 곰동동 라떼, 곰곰 아메리카노</h4>
+                        <div class="slider-container review-slider">
+                            <ul class="review-track">
+                                <li><img src="./img/rv1-1.jpg" alt="리뷰 섬네일 이미지1"></li>
+                                <li><img src="./img/rv1-2.jpg" alt="리뷰 섬네일 이미지2"></li>
+                                <li><img src="./img/rv1-3.jpg" alt="리뷰 섬네일 이미지3"></li>
+                                <li><img src="./img/rv1-4.jpg" alt="리뷰 섬네일 이미지4"></li>
+                                <li><img src="./img/rv1-5.jpg" alt="리뷰 섬네일 이미지5"></li>
+                                <li><img src="./img/rv1-6.jpg" alt="리뷰 섬네일 이미지6"></li>
+                            </ul>
+                        </div>
+                        <p class="review-desc">
+                           비주얼부터 너무 귀엽고 부드러운 곰 모양이라 사진 백 장 찍었어요 ㅋㅋ치즈 맛은 진하지만 느끼하지 않고, 단맛이 살짝 도는 정도라 좋아요.다만 2조각쯤 먹으니까 살짝 무거운 느낌이 있어서아메리카노랑 같이 먹는 게 최고인 것 같아요☕재구매 의사 100%입니다!
+                        </p>
+                    </section>
+                </li>
+            </ul>
+
+        </div>
+
+
     </main>
     <div class="footer-wrap"></div>
     <script src="./js/include.js"></script>

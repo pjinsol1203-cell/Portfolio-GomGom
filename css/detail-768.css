@@ -11,4 +11,16 @@
     .detail-desc .desc{
     height: 100px;
     }
+
+    .sticky-menu{
+    top: 80px;
+    }
+
+    .info-list{
+    flex-direction: column;
+    }
+
+    .review-track li{
+    width: 197px;
+    }
 }
