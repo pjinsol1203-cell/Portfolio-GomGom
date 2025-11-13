@@ -3,7 +3,9 @@
     height: 450px;
     }
 
-    .list-product{
-    grid-template-columns: repeat(3,1fr);
+     .list-product{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap:var(--space-2x-large) var(--space-normal);
     }
 }

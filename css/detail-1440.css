@@ -20,6 +20,10 @@
         flex: 8;
     }
 
+     .list-review>li{
+        flex-direction: column;
+    }
+
     .list-review-1{
     width: auto;
     }
