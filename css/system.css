@@ -183,9 +183,10 @@ p{
         width: auto;
         margin: 0 1rem;
     }
-    main{
-        margin-top: 74px;
-    }
+    
+ main {
+    margin-top: 70px;
+}
 
     header.fold~main{
         margin-top: 74px;
